@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00FF00/* white background for the content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100px; /* Adjust the width of the photo as needed */
+    height: 100px; /* Adjust the height of the photo as needed */
+    border-radius: 50%; /* To make the photo round */
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.name {
+    flex-grow: 1;
+}
+
+.name h1 {
+    font-size: 28px; /* Larger font size for name */
+    margin: 0;
+    color: #FF0000; /* Dark text color */
+}
+
+.name p {
+    font-size: 22px; /* Larger font size for occupation */
+    margin: 5px 0;
+    color: #575F7D; /* Teal color for occupation */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px; /* Padding for sections */
+    border-radius: 10px;
+    background-color: #FFFFFF; /* Light white background for sections */
+section h2 {
+    font-size: 24px; /* Larger font size for section headings */
+    margin-bottom: 10px;
+    color: #FF0000/* red color for section headings */
+}
+
+section ul {
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 5px;
+    color: #575F7D; /* Dark text color */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #333; /* Medium dark text color */
+}
